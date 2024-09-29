@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>K3ros Embed Gen (OS)
+    </h1>
+    <form id="webhook-form">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" placeholder="Enter title">
+      <br>
+      <label for="description">Desc:</label>
+      <textarea id="description" name="description" rows="5"></textarea>
+      <br>
+      <label for="image-url">Image:</label>
+      <input type="url" id="image-url" name="image-url" placeholder="Enter image URL">
+      <br>
+      <button type="submit">Generate Embed</button>
+    </form>
+    <pre id="webhook-code"></pre>
+    <button id="copy-button">Copy the code fattie :D</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
